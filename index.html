@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Year's Resolutions</title>
+    <link rel="icon" href="assets/logo.png" type="image/x-icon" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="app.js" defer></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 style="color: #00adb5">New Year's Resolutions</h1>
+        <div class="new-resolution-container">
+          <h3>New Resolution</h3>
+          <i
+            class="fa-regular fa-pen-to-square fa-2xl"
+            style="cursor: pointer"
+          ></i>
+        </div>
+        <div class="search-container">
+          <input type="text" id="buscador" placeholder="Search..." />
+          <i class="icono fa-solid fa-magnifying-glass-arrow-right fa-xl"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="card">
+        <div class="card-title">Resolution #1</div>
+        <div class="card-text">
+          Revisar el diseño del todo list y hacer ajustes finales.
+        </div>
+        <div class="card-actions">
+          <button>Completar</button>
+          <button id="botonDos">Editar</button>
+          <button id="botonTres">Eliminar</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
