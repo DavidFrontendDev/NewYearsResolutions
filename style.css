@@ -84,7 +84,7 @@ main {
   border: 1px solid #3a3a3a;
   border-radius: 12px;
   padding: 16px;
-  width: 25%;
+  width: 40%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
