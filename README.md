@@ -1,1 +1,23 @@
-# NewYearsResolutions
+# New Years Resolutions
+
+# Funcionalidades esenciales
+- Cambiar la fuente con google fonts.
+- Agregar tareas
+- Marcar tareas como completadas
+- Eliminar tareas
+- Editar tareas
+- Persistencia ( Local Storage )
+- Contador de tareas
+- Filtrar tareas ( Buscador)
+- Errores y validaciones ( no resolutions vacias )
+- Modo oscuro
+- Reordenar tareas (opcional) ( drag & drop ) -> buscar si es posible hacerlo.
+
+
+# Pseudocodigo
+
+# Escritorio
+
+# Tablet
+
+# Movil
