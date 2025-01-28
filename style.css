@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #e7e5e5;
+  color: #cfcdcd;
 }
 header {
   display: flex;
@@ -27,14 +27,15 @@ nav {
   box-shadow: 0px 0px 4px rgb(82, 100, 110);
 }
 h1 {
+  color: #e8e8e8;
   font-size: 1.5rem;
   font-weight: 800;
-  color: #e8e8e8;
-  border-bottom: 1px solid #00adb5;
+  border-bottom: 1px solid #739799;
   background-color: #1f1f1f;
   margin: 0;
 }
 h3 {
+  color: #e8e8e8;
   background-color: #1f1f1f;
 }
 .new-resolution-container {
@@ -124,7 +125,7 @@ main {
 }
 
 .card-actions button {
-  background-color: #fa440c;
+  background-color: green;
   color: #f5f5f5;
   border: none;
   border-radius: 8px;
@@ -140,9 +141,42 @@ main {
 }
 
 #botonDos {
-  background-color: green;
+  background-color: rgb(68, 91, 100);
 }
 
 #botonTres {
-  background-color: grey;
+  background-color: #fa440c;
+}
+@media screen and (max-width: 1024px) {
+  nav {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: 250px;
+    gap: 20px;
+  }
+  .search-container,
+  .new-resolution-container {
+    width: 70%;
+  }
+  h1 {
+    text-align: center;
+  }
+  .card {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .card-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-actions button {
+    width: 85px;
+  }
 }
