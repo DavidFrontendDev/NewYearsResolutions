@@ -1,6 +1,7 @@
-# New Years Resolutions
+# [🎊New Years Resolutions]()
 
 # Funcionalidades esenciales
+- Icono arriba en la pestana que sea bonito.
 - Cambiar la fuente con google fonts.
 - Agregar tareas
 - Marcar tareas como completadas
