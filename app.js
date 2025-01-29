@@ -111,3 +111,18 @@ document.addEventListener("DOMContentLoaded", () => {
     texto.value = "";
   });
 });
+
+const buscador = document.querySelector("#buscador");
+function filtrarNombres() {
+  const textoBusqueda = buscador.value.toLowerCase();
+  const divs = document.querySelectorAll(".card");
+  resolutions.forEach((resolucion, index) => {
+    const div = divs[index];
+    if (resolucion.titulo.toLowerCase().includes(textoBusqueda)) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+}
+buscador.addEventListener("input", filtrarNombres);
