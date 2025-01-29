@@ -1,4 +1,4 @@
-# [🎊New Years Resolutions]()
+# [🎊New Years Resolutions](https://davidfrontenddev.github.io/NewYearsResolutions/)
 
 # Funcionalidades esenciales
 
@@ -12,8 +12,10 @@
 - Contador de tareas ✔️
 - Filtrar tareas ( Buscador) ✔️
 - Errores y validaciones ( no resolutions vacias ) ✔️
-- Modo oscuro
-- Reordenar tareas (opcional) ( drag & drop ) -> buscar si es posible hacerlo.
+
+- Adicional:
+  - Modo oscuro
+  - Reordenar tareas (opcional) ( drag & drop ) -> buscar si es posible hacerlo.
 
 # Pseudocodigo
 
@@ -21,6 +23,12 @@
 
 # Escritorio
 
+[![Imagen](https://i.imgur.com/5JRpfq6.png)](https://davidfrontenddev.github.io/NewYearsResolutions/)
+
 # Tablet
 
+[![Imagen](https://i.imgur.com/UAY3jXr.png)](https://davidfrontenddev.github.io/NewYearsResolutions/)
+
 # Movil
+
+[![Imagen](https://i.imgur.com/MXB4I0i.png)](https://davidfrontenddev.github.io/NewYearsResolutions/)
