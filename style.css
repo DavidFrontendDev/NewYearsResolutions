@@ -229,3 +229,8 @@ main {
     width: 170px;
   }
 }
+.container-tareas {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
