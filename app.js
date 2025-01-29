@@ -134,6 +134,18 @@ document.addEventListener("DOMContentLoaded", () => {
     let tituloResolucion = titulo.value;
     const texto = document.querySelector("#new-text-resolution");
     let textoRes = texto.value;
+
+    // Comprobamos si ya existe una resolución con el mismo título
+    const existeTitulo = resolutions.some(
+      (res) => res.titulo.toLowerCase() === tituloResolucion.toLowerCase()
+    );
+
+    if (existeTitulo) {
+      alert(
+        "A resolution with this title already exists! Please choose another title."
+      );
+      return;
+    }
     let resolucion = new Resolution(tituloResolucion, textoRes, false);
     resolutions.push(resolucion);
     localStorage.setItem("resolutions", JSON.stringify(resolutions)); // Guardar en localStorage
